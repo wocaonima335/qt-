@@ -142,8 +142,8 @@ struct PDU
     char caData[64]; // 其他数据
     uint uiMsgLen;   // 实际消息长度
     int caMsg[];     // 实际消息
-};
 
+};
 PDU *mkPDU(uint uiMsgLen);
 
 struct FileInfo
