@@ -23,6 +23,9 @@
         <file>images/table_size.png</file>
         <file>images/text.png</file>
         <file>images/undo.png</file>
-        <file>server.config</file>
+        <file>../../360Downloads/background.jpg</file>
+        <file>images/youtube12.png</file>
+        <file>images/brakes.png</file>
+        <file>client.config</file>
     </qresource>
 </RCC>

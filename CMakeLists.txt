@@ -1,9 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(TcpServer LANGUAGES CXX)
+project(TcpClient LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
@@ -38,22 +37,21 @@ SOURCE_GROUP("Head Files" FILES ${HEADERS})
 SOURCE_GROUP("Source Files" FILES ${SOURCES})
 
 if(ANDROID)
-  add_library(TcpServer SHARED
-
-    ${FORMS}
-    ${RESOURCES}
-    ${HEADERS}
-    ${SOURCES}
+  add_library(TcpClient SHARED
+      ${FORMS}
+      ${RESOURCES}
+      ${HEADERS}
+      ${SOURCES}
   )
 else()
-  add_executable(TcpServer
-     ${FORMS}
-     ${RESOURCES}
-     ${HEADERS}
-     ${SOURCES}
+  add_executable(TcpClient
+      ${FORMS}
+      ${RESOURCES}
+      ${HEADERS}
+      ${SOURCES}
   )
 endif()
 
-target_link_libraries(TcpServer PRIVATE Qt5::Widgets)
-target_link_libraries(TcpServer PRIVATE Qt5::Network)
-target_link_libraries(TcpServer PRIVATE Qt5::Sql)
+target_link_libraries(TcpClient PRIVATE Qt5::Widgets)
+target_link_libraries(TcpClient PRIVATE Qt5::Network)
+target_link_libraries(TcpClient PRIVATE Qt5::Sql)
