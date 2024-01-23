@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/background.jpg</file>
+        <file>images/close.png</file>
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/enter.png</file>
+        <file>images/error.png</file>
+        <file>images/exit.png</file>
+        <file>images/font.png</file>
+        <file>images/inside_widget.png</file>
+        <file>images/inside_windoe.png</file>
+        <file>images/multi_widget.png</file>
+        <file>images/multi_window.png</file>
+        <file>images/multi_window2.png</file>
+        <file>images/open_folder.png</file>
+        <file>images/paste.png</file>
+        <file>images/redo.png</file>
+        <file>images/right.png</file>
+        <file>images/save.png</file>
+        <file>images/table_header.png</file>
+        <file>images/table_locate.png</file>
+        <file>images/table_size.png</file>
+        <file>images/text.png</file>
+        <file>images/undo.png</file>
+        <file>server.config</file>
+    </qresource>
+</RCC>
